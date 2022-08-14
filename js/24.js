@@ -34,7 +34,34 @@ const carrito = [
     { nombre : "Laptop", precio : 800 }
 ];
 
-for(i = 0; i < carrito.length; i++) {
-    // console.log(carrito[i]);
-    console.log(carrito[i].nombre);
-}
+// for(i = 0; i < carrito.length; i++) {
+//     // console.log(carrito[i]);
+//     console.log(carrito[i].nombre);
+// }
+
+// While Loop // Es muy similar al for, la sintaxis es un poco diferente, pero donde se colocan es diferente. Este se ejecuta cuando una condicion sea evaluada como verdadera.
+
+// let i = 1; // índice - Valor inicial
+// while(i <= 100) { // Condición // Evalúa primero esta condición, si se cumple...
+//     // ...entonces hacé todo esto. Si no se cumple la condición entonces no ejecuta nada que haya acá adentro.
+//     if (i % 2 === 0) { 
+//         console.log(`El número ${i} es par`)
+//     } else {
+//         console.log(`El número ${i} es impar`)
+//     }
+//     i++; // Incremento
+// }
+
+// Do While Loop // 
+
+let i = 11; // Índice - Valor incial igual que en el while
+
+do { // Acá cambia la sintaxis, empezamos con DO directamente, es decir, hacé esto...
+
+    console.log(i) // ...esto...
+
+    i++ // // ...y esto.
+
+} while (i < 10); // Y luego evaluá esto.
+
+// El código en DO While siempre se va ejecutar al menos 1 vez, más allá de si la condición se cumpla o no. Primero se ejecuta, después evalúa. Caso contrario al WHILE normal, primero evalúa, después ejecuta.
